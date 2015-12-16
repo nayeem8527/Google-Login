@@ -38,8 +38,8 @@ public class hello extends HttpServlet
 		{
 			String code = request.getParameter("code");
 			String urlParameters = "code=" + code
-					+ "&client_id= 'your client id' "
-					+ "&client_secret= 'your client secret' "
+					+ "&client_id= your client id "
+					+ "&client_secret= your client secret "
 					+ "&redirect_uri=http://localhost:8080/final_login/hello"
 					+ "&grant_type=authorization_code";
 
